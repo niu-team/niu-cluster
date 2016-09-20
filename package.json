@@ -1,7 +1,7 @@
 {
   "name": "niu-cluster",
   "description": "",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/niu-team/niu-cluster",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "keywords": [
     "cluster",
     "port",
-    "count"
+    "niu"
   ],
   "engines": {
     "node": ">= 0.4.0"

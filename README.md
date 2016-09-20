@@ -2,8 +2,17 @@ niu-cluster
 ----------
 
 同时启动多个实例，监听多个端口
+
 端口号自增
 
+### 配置环境变量
+
+```
+PORT=8080
+CLUSTER_WORKERS_COUNT=2
+```
+
+### 例子
 
 ```
 var yog = require('yog2-kernel');
