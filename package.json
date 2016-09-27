@@ -1,7 +1,7 @@
 {
   "name": "niu-cluster",
   "description": "",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "https://github.com/niu-team/niu-cluster",
   "repository": {
     "type": "git",
@@ -17,6 +17,6 @@
     "niu"
   ],
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">= 0.12.0"
   }
 }

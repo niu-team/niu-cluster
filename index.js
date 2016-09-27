@@ -7,9 +7,9 @@ module.exports = function (workerRun) {
     var port = parseInt(process.env.PORT) || 8085;
     var numCPUs = parseInt(process.env.CLUSTER_WORKERS_COUNT, 10) || 1;
     
-    if (cluster.isMaster) {
+    if (numCPUs > 1 && cluster.isMaster) {
         new WorkerPool(port, numCPUs);
-    } else if (cluster.isWorker) {
+    } else {
         workerRun();
     }
 }
